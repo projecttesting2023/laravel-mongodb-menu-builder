@@ -1,6 +1,6 @@
 {
-    "name": "laranine/laravel-menu",
-    "description": "drag and drop menu generator like wordpress for laravel 5",
+    "name": "laranine/laravel-mongodb-menu",
+    "description": "drag and drop menu generator like wordpress for laravel 9. This package requires jenssegers/mongodb",
     "keywords": ["Laravel", "Menu", "Wordpress", "Builder"],
     "authors": [
     	{
