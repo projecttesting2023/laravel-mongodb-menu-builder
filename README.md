@@ -1,4 +1,4 @@
-# Laravel Drag and Drop menu editor
+# Laravel Drag and Drop menu editor using jenssegers/mongodb
 
 
 [![Latest Stable Version](https://poser.pugx.org/harimayco/laravel-menu/v/stable)](https://packagist.org/packages/laranine/laravel-menu) [![Latest Unstable Version](https://poser.pugx.org/harimayco/laravel-menu/v/unstable)](https://packagist.org/packages/laranine/laravel-menu) [![Total Downloads](https://poser.pugx.org/harimayco/laravel-menu/downloads)](https://packagist.org/packages/laranine/laravel-menu) [![Monthly Downloads](https://poser.pugx.org/harimayco/laravel-menu/d/monthly)](https://packagist.org/packages/laranine/laravel-menu)
@@ -11,7 +11,7 @@ Forked from https://github.com/harimayco/wmenu-builder
 1. Run
 
 ```php
-composer require laranine/laravel-menu
+composer require laraninemenu/laravel-mongodb-menu
 ```
 
 **_Step 2 & 3 are optional if you are using laravel 5.5_**
