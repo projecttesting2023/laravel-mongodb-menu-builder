@@ -2,7 +2,7 @@
 
 namespace Harimayco\Menu\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 class MenuItems extends Model
 {
