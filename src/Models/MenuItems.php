@@ -7,14 +7,14 @@ use Jenssegers\Mongodb\Eloquent\Model;
 class MenuItems extends Model
 {
 
-    protected $table = null;
+    protected $collection = null;
 
     protected $fillable = ['label', 'link', 'parent', 'sort', 'class', 'menu', 'depth', 'role_id'];
 
     public function __construct(array $attributes = [])
     {
         //parent::construct( $attributes );
-        $this->table = config('menu.table_prefix') . config('menu.table_name_items');
+        $this->collection = config('menu.table_prefix') . config('menu.table_name_items');
     }
 
     public function getsons($id)
