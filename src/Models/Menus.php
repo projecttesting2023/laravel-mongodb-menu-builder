@@ -6,12 +6,12 @@ use Jenssegers\Mongodb\Eloquent\Model;
 
 class Menus extends Model
 {
-    protected $table = 'menus';
+    protected $collection = 'menus';
 
     public function __construct(array $attributes = [])
     {
         //parent::construct( $attributes );
-        $this->table = config('menu.table_prefix') . config('menu.table_name_menus');
+        $this->collection = config('menu.table_prefix') . config('menu.table_name_menus');
     }
 
     public static function byName($name)
