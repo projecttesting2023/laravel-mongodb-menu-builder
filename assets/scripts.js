@@ -1925,8 +1925,8 @@ var wpNavMenu;
         	
         	var r = confirm("Do you want to delete this item ?");
 if (r == true) {
-   var d = parseInt(c.id.replace("delete-", ""), 10);
-               deleteitem(d);
+   var d = c.id.replace("delete-", "");
+               deleteitem(d.trim());
 
             return b.removeMenuItem(a("#menu-item-" + d)), b.registerChange(), !1
             
